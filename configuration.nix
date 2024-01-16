@@ -94,7 +94,8 @@
     vscode
     discord
     cider
-    cinnamon.nemo
+    # cinnamon.nemo
+    gnome.nautilus
     gedit
     
     git
