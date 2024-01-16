@@ -1,0 +1,18 @@
+$bg-color: #121212;
+$fg-color: #c5cdda;
+$accent-color: #dfc7ab;
+$rad: 4px;
+
+// Empty workspaces
+// @import "pillws";
+
+// Numbered workspaces
+@import "numws";
+
+* {
+  font-family: "JetBrainsMono Nerd Font";
+  font-weight: bold;
+  font-size: 14px;
+  background-color: transparent;
+}
+
