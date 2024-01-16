@@ -95,6 +95,7 @@
     discord
     cider
     cinnamon.nemo
+    kate
     
     git
     neovim
