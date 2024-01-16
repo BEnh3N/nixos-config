@@ -118,8 +118,8 @@
     enable = true;
 
     theme = {
-      package = pkgs.arc-theme;
-      name = "Arc-Dark";
+      package = pkgs.materia-theme;
+      name = "Materia-dark";
     };
     gtk3.extraConfig = {
       gtk-application-prefer-dark-theme = 1;
@@ -130,7 +130,7 @@
 
     iconTheme = {
       package = pkgs.papirus-icon-theme;
-      name = "Papirus";
+      name = "Papirus-Dark";
     };
 
     font = {
