@@ -88,6 +88,7 @@
     pavucontrol
     playerctl
     socat
+    swaylock-effects
 
     firefox
     alacritty
