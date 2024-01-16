@@ -5,12 +5,12 @@
     :class "tray"
     :halign "end"
     :space-evenly false
-    (box
-      :class "tray-item wifi"
-      :spacing 0
-      :space-evenly false
-      (image :class "icon wifi-icon" :path wifi-icon :image-height "20")
-      (label :class "text wifi-text" :text wifi-strength))
+    ; (box
+    ;   :class "tray-item wifi"
+    ;   :spacing 0
+    ;   :space-evenly false
+    ;   (image :class "icon wifi-icon" :path wifi-icon :image-height "20")
+    ;   (label :class "text wifi-text" :text wifi-strength))
     (box
       :class "tray-item vol"
       :spacing 0
@@ -18,17 +18,23 @@
       (image :class "icon vol-icon" :path vol-icon :image-height "20")
       (label :class "text vol-text" :text "${vol-num}%"))
     (box
-      :class "tray-item bat"
+      :class "tray-item wifi"
       :spacing 0
       :space-evenly false
-      (image :class "icon bat-icon" :path bat-icon :image-height "26")
-      (label :class "text bat-text" :text "${bat-num}%"))
-    (box
-      :class "tray-item br"
-      :spacing 0
-      :space-evenly false
-      (image :class "icon br-icon" :path "images/brightness.svg" :image-height "20")
-      (label :class "text vol-text" :text "${br}%"))
+      (image :class "icon wifi-icon" :path "images/wifi-high.svg" :image-height "20")
+      (label :class "text wifi-text" :text "${ip-addr}"))
+    ; (box
+    ;   :class "tray-item bat"
+    ;   :spacing 0
+    ;   :space-evenly false
+    ;   (image :class "icon bat-icon" :path bat-icon :image-height "26")
+    ;   (label :class "text bat-text" :text "${bat-num}%"))
+    ; (box
+    ;   :class "tray-item br"
+    ;   :spacing 0
+    ;   :space-evenly false
+    ;   (image :class "icon br-icon" :path "images/brightness.svg" :image-height "20")
+    ;   (label :class "text vol-text" :text "${br}%"))
     ))
 
 (defwidget workspaces []

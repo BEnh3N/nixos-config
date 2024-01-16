@@ -91,7 +91,7 @@
 
     firefox
     alacritty
-    vscode
+    # vscode
     discord
     cider
     cinnamon.nemo
@@ -119,8 +119,10 @@
     wayland-utils
     wl-clipboard
     wlroots
+    wirelesstools
   ];
-  hardware.brillo.enable = true;
+  # hardware.brillo.enable = true;
+  services.upower.enable = true;
 
   programs.hyprland = {
     enable = true;

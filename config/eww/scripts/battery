@@ -27,7 +27,7 @@ icon() {
       echo "images/battery-100.svg"
     fi
   else
-    echo "󰑓"
+    echo "images/battery-100.svg"
   fi
 }
 
@@ -57,7 +57,7 @@ class() {
       echo "bat-discharging"
     fi
   else
-    echo "󰑓"
+    echo "bat-full"
   fi
 }
 
