@@ -118,8 +118,8 @@
     enable = true;
 
     theme = {
-      package = pkgs.flat-remix-gtk;
-      name = "Flat-Remix-GTK-Green-Dark";
+      package = pkgs.arc-theme;
+      name = "Arc-Dark";
     };
     gtk3.extraConfig = {
       gtk-application-prefer-dark-theme = 1;
@@ -129,8 +129,8 @@
     };
 
     iconTheme = {
-      package = pkgs.epapirus-icon-theme;
-      name = "ePapirus";
+      package = pkgs.papirus-icon-theme;
+      name = "Papirus";
     };
 
     font = {
