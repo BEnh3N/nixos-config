@@ -43,6 +43,9 @@
     ".config/hypr/hyprland.conf".source = ./config/hypr/hyprland.conf;
     ".config/alacritty/alacritty.toml".source = ./config/alacritty/alacritty.toml;
 
+    ".config/scripts/powermenu.sh".source = ./config/scripts/powermenu.sh;
+    ".config/scripts/screenshooter.sh".source = ./config/scripts/screenshooter.sh;
+
     # dunst
     ".config/dunst/dunstrc" = {
       source = ./config/dunst/dunstrc;

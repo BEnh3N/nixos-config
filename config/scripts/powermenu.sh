@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 opt=`eww get power-option`
 
