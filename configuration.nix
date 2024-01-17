@@ -98,6 +98,7 @@
     discord
     cider
     cinnamon.nemo
+    cinnamon.xviewer
     # gnome.nautilus
     gedit
     
