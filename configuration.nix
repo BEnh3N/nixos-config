@@ -21,6 +21,7 @@
       efiSupport = true;
       enable = true;
       useOSProber = true;
+      default = "saved";
     };
   };
 
@@ -89,6 +90,7 @@
     playerctl
     socat
     swaylock-effects
+    slurp
 
     firefox
     alacritty
