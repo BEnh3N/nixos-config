@@ -139,12 +139,25 @@
     NIXOS_OZONE_WL = "1";
   };
 
+  services.xserver.videoDrivers = ["nvidia"];
   hardware = {
     # OpenGL
-    opengl.enable = true;
+    opengl = {
+      enable = true;
+      driSupport = true;
+      driSupport32Bit = true;
+    };
 
-    # Most wayland compositors need this
-    nvidia.modesetting.enable = true;
+    nvidia = {
+      modesetting.enable = true;
+
+      powerManagement.enable = false;
+      powerManagement.finegrained = false;
+
+      open = false;
+
+      nvidiaSettings = true;
+    };
   };
 
   services.dbus.enable = true;
